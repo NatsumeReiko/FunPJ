@@ -1,38 +1,35 @@
 package com.fun.project.data;
 
-import lombok.RequiredArgsConstructor;
-
-@RequiredArgsConstructor
 public class GitHubUser {
 
-    public final String login;
-    public final int id;
-    public final String avatarUrl;
-    public final String gravatarId;
-    public final String url;
-    public final String htmlUrl;
-    public final String followersUrl;
-    public final String followingUrl;
-    public final String gistsUrl;
-    public final String starredUrl;
-    public final String subscriptionsUrl;
-    public final String organizationsUrl;
-    public final String reposUrl;
-    public final String eventsUrl;
-    public final String receivedEventsUrl;
-    public final String type;
-    public final boolean siteAdmin;
-    public final String name;
-    public final String company;
-    public final String blog;
-    public final String location;
-    public final String email;
-    public final boolean hireable;
-    public final String bio;
-    public final int publicRepos;
-    public final int publicGists;
-    public final int followers;
-    public final int following;
-    public final String createdAt;
-    public final String updatedAt;
+    public String login;
+    public int id;
+    public String avatarUrl;
+    public String gravatarId;
+    public String url;
+    public String htmlUrl;
+    public String followersUrl;
+    public String followingUrl;
+    public String gistsUrl;
+    public String starredUrl;
+    public String subscriptionsUrl;
+    public String organizationsUrl;
+    public String reposUrl;
+    public String eventsUrl;
+    public String receivedEventsUrl;
+    public String type;
+    public boolean siteAdmin;
+    public String name;
+    public String company;
+    public String blog;
+    public String location;
+    public String email;
+    public boolean hireable;
+    public String bio;
+    public int publicRepos;
+    public int publicGists;
+    public int followers;
+    public int following;
+    public String createdAt;
+    public String updatedAt;
 }
