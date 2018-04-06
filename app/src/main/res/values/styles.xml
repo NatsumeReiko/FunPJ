@@ -8,4 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="TextViewTheme1">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:backgroundTint">#288f3b</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/bg_round_corner_8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:text">Hello World!</item>
+    </style>
+
+
 </resources>
